@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:3.5rem;
+  background-color: #f0f2f5;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.avatar{
+  height:3rem;
+  flex-basis: 3rem;
+}
+img{
+  height:100%;
+  border-radius: 50%;
+}
+.menus{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 40%;
+  height:1.6rem;
+}

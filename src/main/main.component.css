@@ -1,0 +1,32 @@
+.container {
+  background-image: url('./main-background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.main {
+  width: 93rem;
+  height: 44rem;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 2px 3px rgba(7, 7, 7, 0.3);
+}
+.sidenav {
+  width: calc(93rem - 67.5%);
+  height: 44rem;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+}
+.conversations {
+  width: calc(93rem - 32.5%);
+  height: 44rem;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+}

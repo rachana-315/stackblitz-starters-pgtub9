@@ -1,0 +1,18 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  height:43rem;
+  border-right: 2px solid black;
+}
+/* .header{
+  height:3.5rem;
+  background-color: blanchedalmond;
+} */
+/* .search{
+  height:3.5rem;
+  background-color: burlywood;
+} */
+.chats{
+  height:36rem;
+  background-color:coral;
+}
